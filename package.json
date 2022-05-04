@@ -7,14 +7,12 @@
     "start": "vite --host",
     "preview": "vite preview --host",
     "build": "vite build && mv ./dist/index/index.html ./dist/ && rmdir ./dist/index",
-    "lint": "eslint ./src/**/*.ts --fix"
+    "lint": "eslint ./**/*.ts --fix"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.4",
     "eslint": "^8.12.0",
     "eslint-config-galex": "^3.6.5",
-    "postcss": "^8.4.12",
-    "tailwindcss": "^3.0.23",
+    "rollup-plugin-postcss-lit": "^2.0.0",
     "typescript": "^4.6.3",
     "vite": "^2.9.1",
     "vite-plugin-mpa": "^1.1.1",

@@ -17,5 +17,5 @@
       "@views/*": ["pages/*"]
     },
   },
-  "include": ["src/**/*.ts"]
+  "include": ["./src/**/*.ts"]
 }
